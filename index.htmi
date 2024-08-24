@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Khaled - 3D Designer</title>
+    <style>
+        /* إضافة أنماط أساسية للصفحة */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul {
+            float: right;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 5px;
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .project {
+            background: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0779e4;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Ziad Khaled - 3D Designer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="main-content">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I’m Ziad Khaled, a 3D designer specializing in transforming ideas into realistic and innovative designs.
+                I strive to provide creative solutions that meet client needs and exceed expectations.
+            </p>
+            <a href="#about-ar" class="btn">Translate to Arabic</a>
+        </div>
+    </section>
+
+    <section id="about-ar" class="main-content" style="display: none;">
+        <div class="container">
+            <h2>نبذة عني</h2>
+            <p>
+                أنا زياد خالد، مصمم ثلاثي الأبعاد متخصص في تحويل الأفكار إلى تصاميم واقعية ومبتكرة. أسعى دائمًا
+                لتقديم حلول إبداعية تلبي احتياجات العملاء وتفوق توقعاتهم.
+            </p>
+            <a href="#about" class="btn">Translate to English</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="main-content">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <!-- هنا يمكن إضافة المزيد من المشاريع مع تفاصيلها -->
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>تفاصيل المشروع 1...</p>
+                <a href="https://www.behance.net/zyadkhaled" class="btn">View on Behance</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>تفاصيل المشروع 2...</p>
+                <a href="https://www.behance.net/zyadkhaled" class="btn">View on Behance</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="main-content">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me directly via WhatsApp: <a href="https://wa.me/201080978528">01080978528</a></p>
+            <p>Or send an email to: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Ziad Khaled. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // إضافة أنيميشن عند التبديل بين اللغات
+        document.querySelectorAll('.btn').forEach(button => {
+           
